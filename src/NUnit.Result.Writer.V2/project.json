@@ -4,6 +4,7 @@
     "Bernardo Esbérard"
   ],
   "description": "A converter from NUnit v3 TestResult.xml to NUnit v2.",
+  "title": "NUnit.Result.Writer.V2",
   "version": "1.0.0-*",
   "dependencies": {
     "Microsoft.Extensions.Testing.Abstractions": "1.0.0-preview2-003121",
@@ -21,7 +22,11 @@
     "repository": {
       "type": "git",
       "url": "https://github.com/bernardbr/nunit.result.writer.v2"
-    }
+    },
+    "summary": "Converts a NUnit v3 result file to v2 format.",
+    "owners": [
+      "bernardbr"
+    ]
   },
   "frameworks": {
     "netcoreapp1.0": {
