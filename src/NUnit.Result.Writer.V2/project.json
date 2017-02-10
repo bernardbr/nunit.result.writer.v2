@@ -1,0 +1,46 @@
+{
+  "copyright": "Copyright (C) Bernardo Esbérard 2017",
+  "authors": [
+    "Bernardo Esbérard"
+  ],
+  "description": "A converter from NUnit v3 TestResult.xml to NUnit v2.",
+  "version": "1.0.0-*",
+  "dependencies": {
+    "Microsoft.Extensions.Testing.Abstractions": "1.0.0-preview2-003121",
+    "Microsoft.Extensions.DependencyModel": "1.0.0"
+  },
+  "buildOptions": {
+    "preserveCompilationContext": true,
+    "warningsAsErrors": true
+  },
+  "packOptions": {
+    "requireLicenseAcceptance": false,
+    "tags": [ "testing", "tdd", "dotnet", "core", "nunit", "converter", "v3 to v2" ],
+    "projectUrl": "https://github.com/bernardbr/nunit.result.writer.v2",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bernardbr/nunit.result.writer.v2"
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0",
+          "type": "platform"
+        },
+        "System.Xml.XmlDocument": "4.0.1",
+        "System.Xml.XPath.XmlDocument": "4.0.1"
+      }
+    },
+    "net451": {
+      "dependencies": {
+        "Microsoft.NETCore.Platforms": "1.0.1"
+      }
+    }
+  },
+
+  "tooling": {
+    "defaultNamespace": "NUnit.Result.Writer.V2"
+  }
+}
