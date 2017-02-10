@@ -8,17 +8,22 @@
     "tasks": [
         {
             "taskName": "build",
-            "args": [ "./src/NUnit.Result.Writer.V2", "./test/NUnit.Result.Writer.V2.Tests" ],
+            "args": [
+                "./src/NUnit.Result.Writer.V2",
+                "./test/NUnit.Result.Writer.V2.Tests"
+            ],
             "isBuildCommand": true,
             "showOutput": "silent",
             "problemMatcher": "$msCompile"
         },
         {
             "taskName": "test",
-            "args": [ "./test/NUnit.Result.Writer.V2.Tests" ],
+            "args": [
+                "./test/NUnit.Result.Writer.V2.Tests"
+            ],
             "isTestCommand": true,
             "showOutput": "silent",
             "problemMatcher": "$msCompile"
-        }        
+        }
     ]
 }

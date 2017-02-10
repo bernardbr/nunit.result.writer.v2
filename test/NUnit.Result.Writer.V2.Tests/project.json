@@ -3,7 +3,10 @@
     "testRunner": "nunit",
     "dependencies": {
         "dotnet-test-nunit": "3.4.0-beta-3",
-        "nunit": "3.6.0"
+        "nunit": "3.6.0",
+        "NUnit.Result.Writer.V2": {
+            "target": "project"
+        }
     },
     "frameworks": {
         "netcoreapp1.0": {

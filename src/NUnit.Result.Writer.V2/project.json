@@ -10,6 +10,7 @@
     "Microsoft.Extensions.DependencyModel": "1.0.0"
   },
   "buildOptions": {
+    "debugType": "portable",
     "preserveCompilationContext": true,
     "warningsAsErrors": true
   },
