@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0-*",
+    "testRunner": "nunit",
+    "dependencies": {
+        "dotnet-test-nunit": "3.4.0-beta-3",
+        "nunit": "3.6.0"
+    },
+    "frameworks": {
+        "netcoreapp1.0": {
+            "dependencies": {
+                "Microsoft.NETCore.App": {
+                    "version": "1.0.0",
+                    "type": "platform"
+                }
+            }
+        }
+    },
+    "buildOptions": {},
+    "tooling": {
+        "defaultNamespace": "NUnit.Result.Writer.V2.Tests"
+    }
+}
